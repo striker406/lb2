@@ -1,0 +1,67 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+#menu {
+    list-style-type: none;
+    padding: 0;
+}
+#menu li {
+    float: left;
+    margin-right: 20px;
+}
+#intro {
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    clear: both;
+}
+.label {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: orange;
+}
+h2 {
+    color: brown;
+}
+div ul li:hover {
+    color: red;
+}
+#choice {
+    margin: 20px 0;
+}
+#choice input:checked + label {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+#boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    height: 130px;
+}
+#boxes div {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 80px;
+}
+#b1 {
+    background-color: green;
+    order: 3;
+}
+#b2 {
+    background-color: blue;
+    order: 4;
+}
+#b3 {
+    background-color: blue;
+    order: 1;
+}
+#b4 {
+    background-color: red;
+    order: 2;
+}
